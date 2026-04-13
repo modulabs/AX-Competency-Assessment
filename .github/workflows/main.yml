@@ -39,8 +39,8 @@ jobs:
 
       # 2. 배포할 HTML 파일의 이름을 index.html로 변경합니다.
       # GitHub Pages는 기본적으로 index.html 파일을 메인 페이지로 사용합니다.
-      - name: Rename file for deployment
-        run: mv indexcurriculuminnotec.html index.html
+     # - name: Rename file for deployment
+     #   run: mv indexcurriculuminnotec.html index.html
 
       # 3. GitHub Pages 아티팩트를 업로드할 준비를 합니다.
       - name: Setup Pages
